@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo list</title>
+</head>
+<body>
+ <nav>
+     <div style="text-align: right">
+        {# 유저가 인증 유무 if문 #}
+         {% if request.user.is_authenticated %}
+         <form action="{% url 'logout' %}" method="POST">
+             {% csrf_token %}
+             {{ request.user.username }}<br>
+             <button>로그아웃</button>
+        </form>
+         {% else %}
+             <a href="{% url 'login' %}">로그인</a><br>
+             <a href="{% url 'signup' %}">회원가입</a>
+         {% endif %}
+     </div>
+ </nav>
+    <h1>Todo list</h1>
+    {% for todo in data %}
+        <li><a href="{% url 'todo_info' todo.id %}">{{ todo.title }}</a></li>
+
+    {% endfor %}
+
+
+</body>
+</html>
