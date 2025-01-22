@@ -7,6 +7,7 @@ from users.views import signup,login
 
 
 urlpatterns = [
+    path('cbv/', include('todo.urls')),
     path("todo/", todo_list, name="todo_list"),
     path('todo/create/', todo_create, name='todo_create'),
     path('todo/<int:todo_id>/', todo_info, name='todo_info'),
