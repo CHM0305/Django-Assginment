@@ -4,23 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ace25d-c0e8-42f6-a116-47f9f89ee13c" name="변경" comment="✨chapter_03 과제 업로드" />
+    <list default="true" id="74ace25d-c0e8-42f6-a116-47f9f89ee13c" name="변경" comment="✨chapter_03 과제 업로드">
+      <change afterPath="$PROJECT_DIR$/../day2_3/templates/todos/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day2_3/templates/todos/todo_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day2_3/templates/todos/todo_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day2_3/todo/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day2_3/todo/migrations/0002_todo_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/templates/todos/todo_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/templates/todos/todo_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/templates/todos/todo_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/templates/todos/todo_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/todo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/todo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_3/todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_3/todo/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CHM0305&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CHM0305/Django-Assginment.git&quot;,
+    &quot;accountId&quot;: &quot;067acd80-c64f-4c20-9a26-799ac4c15b92&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2rvpE7UmZW9px1oe6v6P3QUFQZr" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "chapter__04",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../day2_3/templates/todos" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="day2" />
@@ -46,8 +110,28 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="74ace25d-c0e8-42f6-a116-47f9f89ee13c" name="변경" comment="✨chapter_03 과제 업로드" />
+      <created>1737531435471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737531435471</updated>
+      <workItem from="1737531436489" duration="12640000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="✨chapter_03 과제 업로드" />

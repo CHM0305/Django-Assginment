@@ -1,22 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>User Info</title>
-</head>
-<body>
-    <h1>{{ data.title }}</h1>
 
-<hr><h3>{{ data.description }}</h3>
-    {% for key, value in data.items %}
-        {% if key != 'title' and key != 'description' %}
-        	<p>
-            {{ key }} :
-                <u>{{ value }}</u>
-            </p>
-        {% endif %}
+{% extends 'todos/base.html' %}
+{% block content %}
+    <h1>{{ todo.title }}</h1>
+    <div style="text-align: right">
+        
+            <a href="{% url 'todo_update' todo.id %}"> 수정</a>
+            <a href="{% url 'todo_delete' todo.id %}"> 삭제하기</a>
+    </div>
+        {% for key, value in todo.items %}
+            {% if key != 'title' and key != 'id' and key != 'user_id' and key != '_state'%}
+                    <p>
+                        {{ key }}<br>
+                        <u>{{ value }}</u></p>
+            {% endif %}
+        {% endfor %}
 
-    {% endfor %}
 
-</body>
-</html>
+{% endblock %}
