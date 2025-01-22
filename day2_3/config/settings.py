@@ -27,10 +27,12 @@ DJANGO_APPS=[
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_extensions",
 ]
 OWN_APPS=[
     "todo",
     "users",
+
 ]
 INSTALLED_APPS = DJANGO_APPS + OWN_APPS
 MIDDLEWARE = [

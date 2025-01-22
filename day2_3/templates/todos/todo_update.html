@@ -1,0 +1,11 @@
+{% extends 'todos/base.html' %}
+{% block content %}
+ <h1>블로그 수정</h1>
+    {% if request.user.is_authenticated %}
+         <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button>수정</button>
+        </form>
+    {% endif %}
+{% endblock %}
