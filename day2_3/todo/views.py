@@ -25,7 +25,7 @@ def todo_list(request):
     context = {
         'page_obj': page_obj
     }
-    return render(request, 'todos/todo_list.html', context)
+    return render(request, 'todo/todo_list.html', context)
 
 @login_required()
 def todo_info(request,todo_id):
@@ -33,7 +33,7 @@ def todo_info(request,todo_id):
     context = {
         'todo': todo.__dict__  # items 메서드를 사용하기 위해 딕셔너리 형태로 context를 넘겨줍니다.
     }
-    return render(request, 'todos/todo_info.html',context)
+    return render(request, 'todo/todo_info.html', context)
 
 @login_required()
 def todo_create(request):
@@ -44,7 +44,7 @@ def todo_create(request):
         todo.save()
         return redirect(reverse('todo_info',kwargs={'todo_id' : todo.pk}))
     context = {'form': form}
-    return render(request,'todos/todo_create.html',context)
+    return render(request, 'todo/todo_create.html', context)
 
 @login_required()
 def todo_update(request,todo_id):
@@ -57,7 +57,7 @@ def todo_update(request,todo_id):
         'todo': todo,
         'form': form
     }
-    return render(request, 'todos/todo_update.html', context)
+    return render(request, 'todo/todo_update.html', context)
 
 @login_required()
 def todo_delete(request, todo_id):
