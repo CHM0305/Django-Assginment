@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2444eaa-7f19-4f15-b66a-c29b608d75a0" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Django-Assginment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django-Assginment.iml" afterDir="false" />
+    <list default="true" id="c2444eaa-7f19-4f15-b66a-c29b608d75a0" name="변경" comment="✨chapter_06 과제 업로드 및 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2_3/todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day2_3/todo/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day5/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day5/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day5/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/day5/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/templates/todos/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/templates/todos/todo_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/templates/todos/todo_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/templates/todos/todo_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/templates/todos/todo_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/day5/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/day5/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/templates/todo/todo_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/templates/todo/todo_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/templates/todo/todo_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/templates/todo/todo_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/day5/templates/todo/todo_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day5/todo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/todo/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day5/todo/cb_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/todo/cb_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/todo/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/todo/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/todo/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/todo/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day5/todo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/todo/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/todo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/todo/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "CHM0305"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CHM0305&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CHM0305/Django-Assginment.git",
-    "accountId": "067acd80-c64f-4c20-9a26-799ac4c15b92"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CHM0305/Django-Assginment.git&quot;,
+    &quot;accountId&quot;: &quot;067acd80-c64f-4c20-9a26-799ac4c15b92&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2s1PzWRNM9noq50VN2I6qIp5ZlH" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -63,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "chapter__06",
+    "git-widget-placeholder": "chapter__07",
     "last_opened_file_path": "/Users/hyemin/Desktop/Django-Assginment/day5/templates/todo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -122,10 +119,15 @@
       <option name="presentableId" value="Default" />
       <updated>1737620370670</updated>
       <workItem from="1737620371768" duration="981000" />
+      <workItem from="1737698116011" duration="5539000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="✨chapter_06 과제 업로드 및 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨chapter_06 과제 업로드 및 수정" />
   </component>
 </project>
