@@ -26,15 +26,22 @@ DJANGO_APPS=[
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "django.contrib.staticfiles",
-    "django_extensions",
+    'django.contrib.staticfiles',
 ]
-OWN_APPS=[
-    "todo",
-    "users",
 
+CUSTOM_APPS = [
+    'todo',
+    'users',
 ]
-INSTALLED_APPS = DJANGO_APPS + OWN_APPS
+
+THIRD_PARTY_APPS = [
+    'django_extensions',
+    'django_summernote',
+    'django_cleanup',
+]
+
+INSTALLED_APPS = DJANGO_APPS + CUSTOM_APPS + THIRD_PARTY_APPS
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -117,6 +124,9 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = BASE_DIR / '.static_root'
 
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -126,3 +136,43 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/cbv/todo/'
 LOGOUT_REDIRECT_URL = '/accounts/login/'
+
+
+SUMMERNOTE_CONFIG = {
+    'iframe': True,
+
+    'summernote': {
+
+        'airMode': False,
+
+
+        'width': '100%',
+        'height': '480',
+
+
+        'toolbar': [
+            ['style', ['style']],
+            ['font', ['bold', 'underline', 'clear']],
+            ['color', ['color']],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['table', ['table']],
+            ['insert', ['link', 'picture']],
+            ['view', ['fullscreen']],
+        ],
+
+
+        'lang': 'ko-KR',
+
+        'codemirror': {
+            'mode': 'htmlmixed',
+            'lineNumbers': 'true',
+            'theme': 'monokai',
+        },
+    },
+
+    'attachment_require_authentication': True,
+
+    'disable_attachment': False,
+
+    'attachment_absolute_uri': True,
+}
