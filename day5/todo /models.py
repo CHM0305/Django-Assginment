@@ -1,9 +1,9 @@
 from django.contrib.auth import get_user_model
 from django.db import models
 from PIL import Image
-from django.urls import reverse
 from pathlib import Path
 from io import BytesIO
+
 
 User = get_user_model()
 
@@ -55,6 +55,7 @@ class Todo(models.Model):
 
         temp_thumb.close()
         return super().save(*args, **kwargs)
+
 
 class Comment(models.Model):
     todo = models.ForeignKey(Todo, on_delete=models.CASCADE, related_name='comments')
